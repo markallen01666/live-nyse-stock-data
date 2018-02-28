@@ -1,0 +1,48 @@
+/*  Styling for NYSE live stock data web app
+    Mark Allen - Freelance Web Developer - 2018
+
+    Colour scheme: Flat UI "British Palette" from https://flatuicolors.com/
+*/
+
+/* **** Global page settings **** */
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #353b48;
+  background-position: center top;
+  user-select: none;
+  text-decoration: none;
+  color: white;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+h3 {
+  font-size: 2vw;
+  color: #0097e6;
+}
+
+h6 {
+  font-size: 1vw;
+  color: #0097e6;
+}
+
+p {
+  font-size: 2vw;
+}
+
+#columnTitles {
+  color: #dcdde1;
+}
+/* **** Spacing modifiers **** */
+/* Top offset modifiers */
+.v-offset-1 {
+	margin-top: 1vh;
+}
+.v-offset-3 {
+	margin-top: 3vh;
+}
+.v-offset-6 {
+	margin-top: 6vh;
+}
